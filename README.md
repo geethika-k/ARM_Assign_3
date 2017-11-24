@@ -34,9 +34,14 @@ IEEE defines five methods for rounding of floating point numbers.
 4. Round toward +∞ : rounding is directed towards +ve infinity
 5. Round toward -∞ : rounding is directed towards -ve infinity
 
-e.g                                               +14.4     -14.4     +15.4
-     Round to nearest, ties to even             : +14.0     -14.0     +16.0
-     Round to nearest, ties away from zero      : +15.0     -15.0     +16.0
-     toward 0                                   : +14.0     -14.0     +15.0
-     toward +∞                                  : +15.0     -14.0     +16.0
-     toward -∞                                  : +14.0     -15.0     +15.0
+                                       e.g   +14.4     -14.4     +15.4
+
+Round to nearest, ties to even             : +14.0     -14.0     +16.0
+
+Round to nearest, ties away from zero      : +15.0     -15.0     +16.0
+
+toward 0                                   : +14.0     -14.0     +15.0
+
+toward +∞                                  : +15.0     -14.0     +16.0
+
+toward -∞                                  : +14.0     -15.0     +15.0
