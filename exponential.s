@@ -5,7 +5,7 @@
 	 ENTRY 
 __main  FUNCTION
 				;e^x = 1 + x + x^2/2! + x^3/3! + .......
-	MOV r1,#10	;r1 gives the no. of terms in series that are to be considered
+	MOV r1,#100	;r1 gives the no. of terms in series that are to be considered
 	MOV r2,#6	;r2 gives the values of the exponent in e^x, i.e. x value
 	MOV r3,#1	;r3 stores the value of the whole expansion until a certain no. of terms
 	MOV r4,#1	;r4 stores the numerator of each term
